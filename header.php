@@ -19,15 +19,15 @@
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-				<nav class="menu menu--shylock">
-					<ul class="nav navbar-nav link-effect-7" id="link-effect-7">
-						<li class="active"><a href="index.html" data-hover="Home">Home</a></li>
-						<li><a href="about.html" data-hover="About Us">About Us</a></li>
-						<li><a href="blog.html" data-hover="Blog">Blog</a></li>
-						<li><a href="short-codes.html" data-hover="Short Codes">Short Codes</a></li>
-						<li><a href="mail.html" data-hover="Mail Us">Mail Us</a></li>
-					</ul>
-				</nav>
+
+				<?php
+				wp_nav_menu( array(
+					'menu_id'         => 'primary',
+					'container'       => 'nav',
+					'container_class' => 'menu menu--shylock',
+                    'items_wrap' => '<ul id="%1$s" class="%2$s nav navbar-nav link-effect-7">%3$s</ul>'
+				) );
+				?>
 			</div>
 		</nav>
 	</div>

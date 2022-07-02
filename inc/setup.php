@@ -13,8 +13,7 @@ function akonbariagro_setup() {
 
 	register_nav_menus(
 		array(
-			'primary' => esc_html__( 'Primary', 'akonbariagro' ),
-			'home' => esc_html__( 'Home', 'akonbariagro' ),
+			'primary' => esc_html__( 'Primary', 'akonbariagro' )
 		)
 	);
 
