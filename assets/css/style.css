@@ -2451,11 +2451,12 @@ h2.typoh2{
 .akonbariagro {
     padding-top: 0 !important;
 }
-
-.akonbariagro .navbar-right {
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
+@media (min-width: 768px) {
+    .akonbariagro .navbar-right {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .shop-link {
@@ -2473,4 +2474,14 @@ h2.typoh2{
 
 .shop-link:focus {
     outline: none;
+}
+
+@media (max-width: 767px) {
+    .cta-btn {
+        margin-top: 15px;
+        display: block;
+    }
+    .cta-btn:last-child {
+        margin-bottom: 15px;
+    }
 }
