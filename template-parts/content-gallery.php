@@ -75,7 +75,7 @@ $cows = [
 ];
 ?>
 <!-- gallery -->
-<div class="gallery">
+<div class="gallery" id="gallery">
     <h3 class="head"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Our Cattle</h3>
     <br>
     <div class="container">

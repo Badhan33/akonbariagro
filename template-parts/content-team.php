@@ -24,7 +24,7 @@ $members = [
 ?>
 
 <!-- team -->
-<div class="team">
+<div class="team" id="team">
 	<div class="container">
 		<h3 class="head"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Our Team</h3>
 		<div class="agile_team_grids">
