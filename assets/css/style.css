@@ -2456,6 +2456,12 @@ h2.typoh2{
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
+
+#header.header-scrolled {
+    height: 60px;
+    padding: 10px 0;
+}
+
 @media (min-width: 768px) {
     .akonbariagro .navbar-right {
         display: flex !important;

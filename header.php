@@ -7,7 +7,7 @@
 </head>
 
 <body <?php body_class( 'akonbariagro' ); ?>>
-<div class="top-nav">
+<div class="top-nav" id="header">
 	<div class="container">
 		<nav class="navbar navbar-default">
 			<div class="navbar-header navbar-left">
