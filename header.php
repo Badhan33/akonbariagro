@@ -6,7 +6,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class( 'akonbariagro' ); ?>>
 <div class="top-nav">
 	<div class="container">
 		<nav class="navbar navbar-default">
@@ -28,6 +28,8 @@
                     'items_wrap' => '<ul id="%1$s" class="%2$s nav navbar-nav link-effect-7">%3$s</ul>'
 				) );
 				?>
+                <a class="btn btn-warning" href="tel:+8801755548444"><i class="fa fa-phone"></i>&nbsp;&nbsp;Call Us at: 01755548444</a>
+                <a class="shop-link" href="<?php echo site_url(); ?>/shop">Shop</a>
 			</div>
 		</nav>
 	</div>

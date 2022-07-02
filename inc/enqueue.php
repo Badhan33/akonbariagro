@@ -17,10 +17,11 @@ function akonbariagro_scripts() {
 	wp_enqueue_style( 'akonbariagro-bootstrap', AKONBARIAGRO_ASSETS_URI . '/css/bootstrap.css', array() );
 
 	// Libraries CSS Files
+	wp_enqueue_style( 'texlab-fontawesome', AKONBARIAGRO_ASSETS_URI . '/vendor/font-awesome/css/font-awesome.min.css', array() );
 	wp_enqueue_style( 'akonbariagro-flexslider', AKONBARIAGRO_ASSETS_URI . '/css/flexslider.css', array() );
 
 	// Main Stylesheet File
-	wp_enqueue_style( 'akonbariagro-style', AKONBARIAGRO_ASSETS_URI . '/css/style.css', array(), AKONBARIAGRO_VERSION );
+	wp_enqueue_style( 'akonbariagro-style', AKONBARIAGRO_ASSETS_URI . '/css/style.css', array( 'akonbariagro-bootstrap' ), AKONBARIAGRO_VERSION );
 	wp_enqueue_style( 'akonbariagro-theme', get_stylesheet_uri(), array(), AKONBARIAGRO_VERSION );
 
 	// JavaScript Libraries

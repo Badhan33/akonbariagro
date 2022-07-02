@@ -17,22 +17,22 @@ get_header();
                     <ul class="slides">
                         <li>
                             <div class="w3l_banner_info">
-                                <h3>Fusce et egestas erat. Mauris eget iaculis magna, non gravida orci.</h3>
+                                <h3>PURITY IS OUR PRIORITY</h3>
                             </div>
                         </li>
                         <li>
                             <div class="w3l_banner_info">
-                                <h3>Mauris eget iaculis magna, non gravida orci. Aenean nec odio quis.</h3>
+                                <h3>We have the best cattle in our farm</h3>
                             </div>
                         </li>
                         <li>
                             <div class="w3l_banner_info">
-                                <h3>Aenean a dolor lobortis, luctus augue vel, ultrices lorem fermentum.</h3>
+                                <h3>With great care and supervision, they are brought up to be the finest. Have a look!</h3>
                             </div>
                         </li>
                         <li>
                             <div class="w3l_banner_info">
-                                <h3>Phasellus libero tellus, pulvinar vitae sem sit amet, faucibus neque.</h3>
+                                <h3>We're just one call away!</h3>
                             </div>
                         </li>
                         <li>
@@ -46,132 +46,9 @@ get_header();
         </div>
     </div>
     <!-- //banner -->
-    <!-- banner-bottom -->
-    <div class="banner-bottom">
-        <div class="container">
-            <div class="col-md-7 wthree_banner_bottom_left">
-                <h2>Introducing one of the best cattle farms of the country!</h2>
-            </div>
-            <div class="col-md-5 wthree_banner_bottom_right">
-                <div class="more">
-                    <a href="#about" class="button button--nina button--size-s" data-text="Learn more">
-                        <span>L</span><span>e</span><span>a</span><span>n</span>
-                        <span>m</span><span>o</span><span>r</span><span>e</span>
-                    </a>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-    <!-- //banner-bottom -->
     <?php get_template_part( 'template-parts/content', 'about' ) ?>
-    <!-- services -->
-    <div class="services">
-        <div class="container">
-            <div class="col-md-4 agileits_service_grid">
-                <div class="agileits_service_grid1">
-                    <span></span>
-                </div>
-                <h3>Etiam fringilla magna velit</h3>
-                <p>Ut volutpat mi sit amet eros fermentum posuere. Sed mollis, tellus et imperdiet
-                    aliquet, turpis ex tincidunt lectus.</p>
-            </div>
-            <div class="col-md-4 agileits_service_grid">
-                <div class="agileits_service_grid2">
-                    <span></span>
-                </div>
-                <h3>amet eros fermentum posuere</h3>
-                <p>Ut volutpat mi sit amet eros fermentum posuere. Sed mollis, tellus et imperdiet
-                    aliquet, turpis ex tincidunt lectus.</p>
-            </div>
-            <div class="col-md-4 agileits_service_grid">
-                <div class="agileits_service_grid3">
-                    <span></span>
-                </div>
-                <h3>Tellus et imperdiet turpis</h3>
-                <p>Ut volutpat mi sit amet eros fermentum posuere. Sed mollis, tellus et imperdiet
-                    aliquet, turpis ex tincidunt lectus.</p>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-    <!-- //services -->
-    <!-- gallery -->
-    <div class="gallery">
-        <h3 class="head"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Our Cattle Farm</h3>
-        <div class="w3_gallery_grids">
-            <div id="jzBox" class="jzBox">
-                <div id="jzBoxNextBig"></div>
-                <div id="jzBoxPrevBig"></div>
-                <img src="#" id="jzBoxTargetImg" alt=" "/>
-                <div id="jzBoxBottom">
-                    <div id="jzBoxTitle"></div>
-                    <span id="jzBoxMoreItems">
-						<div id="jzBoxCounter"></div>
-						<i class="arrow-left" id="jzBoxPrev"></i>
-						<i class="arrow-right" id="jzBoxNext"></i>
-					</span>
-                    <i class="close" id="jzBoxClose"></i>
-                </div>
-            </div>
-            <div class="col-md-2 w3_gallery_grid">
-                <a href="<?php echo AKONBARIAGRO_ASSETS_URI; ?>/images/1.jpg" class="jzBoxLink" title="Cattle Farm">
-                    <img src="<?php echo AKONBARIAGRO_ASSETS_URI; ?>/images/1.jpg" alt=" " class="img-responsive"/>
-                </a>
-                <div class="w3_gallery_grid1">
-                    <h4>turpis tincidunt</h4>
-                    <p>Sed mollis, tellus et imperdiet aliquet, turpis.</p>
-                </div>
-            </div>
-            <div class="col-md-2 w3_gallery_grid">
-                <a href="<?php echo AKONBARIAGRO_ASSETS_URI; ?>/images/2.jpg" class="jzBoxLink" title="Cattle Farm">
-                    <img src="<?php echo AKONBARIAGRO_ASSETS_URI; ?>/images/2.jpg" alt=" " class="img-responsive"/>
-                </a>
-                <div class="w3_gallery_grid1">
-                    <h4>imperdiet aliquet</h4>
-                    <p>Sed mollis, tellus et imperdiet aliquet, turpis.</p>
-                </div>
-            </div>
-            <div class="col-md-2 w3_gallery_grid">
-                <a href="<?php echo AKONBARIAGRO_ASSETS_URI; ?>/images/3.jpg" class="jzBoxLink" title="Cattle Farm">
-                    <img src="<?php echo AKONBARIAGRO_ASSETS_URI; ?>/images/3.jpg" alt=" " class="img-responsive"/>
-                </a>
-                <div class="w3_gallery_grid1">
-                    <h4>mollis tellus turpis</h4>
-                    <p>Sed mollis, tellus et imperdiet aliquet, turpis.</p>
-                </div>
-            </div>
-            <div class="col-md-2 w3_gallery_grid">
-                <a href="<?php echo AKONBARIAGRO_ASSETS_URI; ?>/images/5.jpg" class="jzBoxLink" title="Cattle Farm">
-                    <img src="<?php echo AKONBARIAGRO_ASSETS_URI; ?>/images/5.jpg" alt=" " class="img-responsive"/>
-                </a>
-                <div class="w3_gallery_grid1">
-                    <h4>sit amet faucibus</h4>
-                    <p>Sed mollis, tellus et imperdiet aliquet, turpis.</p>
-                </div>
-            </div>
-            <div class="col-md-2 w3_gallery_grid">
-                <a href="<?php echo AKONBARIAGRO_ASSETS_URI; ?>/images/4.jpg" class="jzBoxLink" title="Cattle Farm">
-                    <img src="<?php echo AKONBARIAGRO_ASSETS_URI; ?>/images/4.jpg" alt=" " class="img-responsive"/>
-                </a>
-                <div class="w3_gallery_grid1">
-                    <h4>interdum sollicit</h4>
-                    <p>Sed mollis, tellus et imperdiet aliquet, turpis.</p>
-                </div>
-            </div>
-            <div class="col-md-2 w3_gallery_grid">
-                <a href="<?php echo AKONBARIAGRO_ASSETS_URI; ?>/images/6.jpg" class="jzBoxLink" title="Cattle Farm">
-                    <img src="<?php echo AKONBARIAGRO_ASSETS_URI; ?>/images/6.jpg" alt=" " class="img-responsive"/>
-                </a>
-                <div class="w3_gallery_grid1">
-                    <h4>suscipit sapien</h4>
-                    <p>Sed mollis, tellus et imperdiet aliquet, turpis.</p>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-    <!-- //gallery -->
+    <?php get_template_part( 'template-parts/content', 'gallery' ) ?>
+
     <!-- features -->
     <div class="features">
         <div class="container">
