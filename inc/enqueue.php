@@ -29,6 +29,7 @@ function akonbariagro_scripts() {
 	wp_enqueue_script( 'akonbariagro-move-top', AKONBARIAGRO_ASSETS_URI . '/js/move-top.js', array( 'jquery' ), '1.0.0', true );
 	wp_enqueue_script( 'akonbariagro-easing', AKONBARIAGRO_ASSETS_URI . '/js/easing.js', array( 'jquery' ), '1.0.0', true );
 	wp_enqueue_script( 'akonbariagro-jzbox', AKONBARIAGRO_ASSETS_URI . '/js/jzBox.js', array( 'jquery' ), '1.0.0', true );
+	wp_enqueue_script( 'akonbariagro-wmuSlider', AKONBARIAGRO_ASSETS_URI . '/js/jquery.wmuSlider.js', array( 'jquery' ), '1.0.0', true );
 
 	// Template Main Javascript File
 	wp_enqueue_script( 'akonbariagro-main', AKONBARIAGRO_ASSETS_URI . '/js/main.js', array( 'jquery' ), '1.0.0', true );

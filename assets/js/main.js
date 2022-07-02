@@ -23,7 +23,10 @@
 			};
 		*/
 
-        //$().UItoTop({easingType: 'easeOutQuart'});
+        $().UItoTop({easingType: 'easeOutQuart'});
+
+
+        $('.example1').wmuSlider();
 
     });
 

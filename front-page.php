@@ -50,11 +50,11 @@ get_header();
     <div class="banner-bottom">
         <div class="container">
             <div class="col-md-7 wthree_banner_bottom_left">
-                <h2>Aenean id lectus tempus, dapibus urna ut, efficitur justo. Sed vel ornare elit.</h2>
+                <h2>Introducing one of the best cattle farms of the country!</h2>
             </div>
             <div class="col-md-5 wthree_banner_bottom_right">
                 <div class="more">
-                    <a href="single.html" class="button button--nina button--size-s" data-text="Learn more">
+                    <a href="#about" class="button button--nina button--size-s" data-text="Learn more">
                         <span>L</span><span>e</span><span>a</span><span>n</span>
                         <span>m</span><span>o</span><span>r</span><span>e</span>
                     </a>
@@ -64,6 +64,7 @@ get_header();
         </div>
     </div>
     <!-- //banner-bottom -->
+    <?php get_template_part( 'template-parts/content', 'about' ) ?>
     <!-- services -->
     <div class="services">
         <div class="container">
