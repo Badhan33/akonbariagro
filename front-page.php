@@ -17,7 +17,7 @@ get_header();
                     <ul class="slides">
                         <li>
                             <div class="w3l_banner_info">
-                                <h3>PURITY IS OUR PRIORITY</h3>
+                                <h3>Purity is our priority</h3>
                             </div>
                         </li>
                         <li>
@@ -33,11 +33,6 @@ get_header();
                         <li>
                             <div class="w3l_banner_info">
                                 <h3>We're just one call away!</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="w3l_banner_info">
-                                <h3>Vestibulum non erat ut odio euismod accumsan. Phasellus libero tellus.</h3>
                             </div>
                         </li>
                     </ul>
