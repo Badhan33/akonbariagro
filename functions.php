@@ -8,7 +8,7 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-define( 'AKONBARIAGRO_VERSION', '1.0.0' );
+define( 'AKONBARIAGRO_VERSION', '1.0.1' );
 
 define( 'AKONBARIAGRO_BASE_URI', get_template_directory_uri() );
 define( 'AKONBARIAGRO_ASSETS_URI', AKONBARIAGRO_BASE_URI . '/assets' );

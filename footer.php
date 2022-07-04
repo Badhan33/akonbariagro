@@ -23,7 +23,7 @@
                     <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
                     <h4>Call Us</h4>
                     <ul>
-                        <li><i class="fa fa-phone"></i>&nbsp;&nbsp;<a href="tel:+8801755548444">01755548444</a></li>
+                        <li><i class="fa fa-phone"></i>&nbsp;&nbsp;<a href="tel:+8801755548444">01886148444</a></li>
                     </ul>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                     <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
                     <h4>WhatsApp</h4>
                     <ul>
-                        <li><i class="fa fa-whatsapp"></i>&nbsp;&nbsp;01755548444</li>
+                        <li><i class="fa fa-whatsapp"></i>&nbsp;&nbsp;01886148444</li>
                     </ul>
                 </div>
             </div>
