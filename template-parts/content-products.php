@@ -161,6 +161,9 @@ if ( ! empty( $products ) ) { ?>
             <div class="row">
 				<?php foreach ( $cows as $key => $cow ) {
 					$i = $key + 1;
+                    if ( 6 == $i ) {
+                        continue;
+					}
 					?>
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
