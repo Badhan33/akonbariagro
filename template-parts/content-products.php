@@ -39,7 +39,7 @@ if ( ! empty( $products ) ) { ?>
                                 <p>মূল্য <?php echo $product['products']['price']; ?></p>
                                 <p>ওজন নেয়ার তারিখঃ <?php echo $product['products']['date']; ?></p>
                                 <p>যোগাযোগের নম্বরঃ <?php echo $product['products']['contact']; ?></p>
-								<?php echo ! empty( $product['sold'] ) ? '<b>বিক্রয় সম্পন্ন</b>' : ''; ?>
+								<?php echo ! empty( $product['sold'] ) ? '<b class="text-danger text-uppercase">Sold Out!</b>' : ''; ?>
                             </div>
                         </div>
                     </div>
@@ -64,9 +64,9 @@ if ( ! empty( $products ) ) { ?>
 		[
 			'token'   => 'ইয়েলো-০৪',
 			'type'    => 'শাহীওয়াল',
-			'weight'  => '৩৪০ কেজি',
-			'price'   => '৩৪০ × ৳৪৬০ = ৳১,৫৬,৪০০',
-			'date'    => '১৫ জুন ২০২২',
+			'weight'  => '৩৪২ কেজি',
+			'price'   => '৩৪২ × ৳৪৬০ = ৳১,৫৭,৩২০',
+			'date'    => '০১ জুলাই ২০২২',
 			'contact' => '০১৮৮৬১৪৮৪৪৪',
             'sold' => 1,
 
@@ -74,9 +74,9 @@ if ( ! empty( $products ) ) { ?>
 		[
 			'token'   => 'ইয়েলো-০৬',
 			'type'    => 'শাহীওয়াল',
-			'weight'  => '৩২০ কেজি',
-			'price'   => '৩২০ × ৳৪৬০ = ৳১,৪৭,২০০',
-			'date'    => '১৫ জুন ২০২২',
+			'weight'  => '৩৩১ কেজি',
+			'price'   => '৩৩১ × ৳৪৬০ = ৳১,৫২,২৬০',
+			'date'    => '০১ জুলাই ২০২২',
 			'contact' => '০১৮৮৬১৪৮৪৪৪',
 			'sold' => 1,
 
@@ -188,7 +188,7 @@ if ( ! empty( $products ) ) { ?>
                                 <p>মূল্য <?php echo $cow['price']; ?></p>
                                 <p>ওজন নেয়ার তারিখঃ <?php echo $cow['date']; ?></p>
                                 <p>যোগাযোগের নম্বরঃ <?php echo $cow['contact']; ?></p>
-                                <?php echo $cow['sold'] ? '<b>বিক্রয় সম্পন্ন</b>' : ''; ?>
+                                <?php echo $cow['sold'] ? '<b class="text-danger text-uppercase">Sold Out!</b>' : ''; ?>
                             </div>
                         </div>
                     </div>
