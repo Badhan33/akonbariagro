@@ -52,6 +52,17 @@ function akonbariagro_setup() {
 			'flex-height' => true,
 		)
 	);
+
+	// Define Theme Options page
+	if ( function_exists( 'acf_add_options_page' ) ) :
+		acf_add_options_page( array(
+			'page_title' 	=> 'Theme Options Settings',
+			'menu_title'	=> 'Theme Options',
+			'menu_slug' 	=> 'theme-options-settings',
+			'capability'	=> 'edit_posts',
+			'redirect'		=> false,
+		) );
+	endif;
 }
 
 add_action( 'after_setup_theme', 'akonbariagro_setup' );
