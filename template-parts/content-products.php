@@ -39,6 +39,7 @@ if ( ! empty( $products ) ) { ?>
                                 <p>মূল্য <?php echo $product['products']['price']; ?></p>
                                 <p>ওজন নেয়ার তারিখঃ <?php echo $product['products']['date']; ?></p>
                                 <p>যোগাযোগের নম্বরঃ <?php echo $product['products']['contact']; ?></p>
+								<?php echo ! empty( $product['sold'] ) ? '<b>বিক্রয় সম্পন্ন</b>' : ''; ?>
                             </div>
                         </div>
                     </div>
@@ -56,7 +57,8 @@ if ( ! empty( $products ) ) { ?>
 			'weight'  => '২৯৬ কেজি',
 			'price'   => '২৯৬ × ৳৪৬০ = ৳১,৩৬,১৬০',
 			'date'    => '১৫ জুন ২০২২',
-			'contact' => '০১৮৮৬১৪৮৪৪৪'
+			'contact' => '০১৮৮৬১৪৮৪৪৪',
+            'sold' => 1,
 
 		],
 		[
@@ -65,7 +67,8 @@ if ( ! empty( $products ) ) { ?>
 			'weight'  => '৩৪০ কেজি',
 			'price'   => '৩৪০ × ৳৪৬০ = ৳১,৫৬,৪০০',
 			'date'    => '১৫ জুন ২০২২',
-			'contact' => '০১৮৮৬১৪৮৪৪৪'
+			'contact' => '০১৮৮৬১৪৮৪৪৪',
+            'sold' => 1,
 
 		],
 		[
@@ -74,7 +77,8 @@ if ( ! empty( $products ) ) { ?>
 			'weight'  => '৩২০ কেজি',
 			'price'   => '৩২০ × ৳৪৬০ = ৳১,৪৭,২০০',
 			'date'    => '১৫ জুন ২০২২',
-			'contact' => '০১৮৮৬১৪৮৪৪৪'
+			'contact' => '০১৮৮৬১৪৮৪৪৪',
+			'sold' => 1,
 
 		],
 		[
@@ -83,16 +87,18 @@ if ( ! empty( $products ) ) { ?>
 			'weight'  => '৩২৫ কেজি',
 			'price'   => '৩২৫ × ৳৪৬০ = ৳১,৪৯,৫০০',
 			'date'    => '১৫ জুন ২০২২',
-			'contact' => '০১৮৮৬১৪৮৪৪৪'
+			'contact' => '০১৮৮৬১৪৮৪৪৪',
+			'sold' => 1,
 
 		],
 		[
 			'token'   => 'ওয়াই-১২',
-			'type'    => 'ফ্রিজিয়ান ক্রস',
+			'type'    => 'দেশাল',
 			'weight'  => '৩৭২ কেজি',
 			'price'   => '৩৭২ × ৳৪৬০ = ৳১,৭১,১২০',
 			'date'    => '০১ জুলাই ২০২২',
-			'contact' => '০১৮৮৬১৪৮৪৪৪'
+			'contact' => '০১৮৮৬১৪৮৪৪৪',
+			'sold' => 0,
 
 		],
 		[
@@ -101,7 +107,8 @@ if ( ! empty( $products ) ) { ?>
 			'weight'  => '৩৪০ কেজি',
 			'price'   => '৩৪০ × ৳৪৬০ = ৳১,৫৬,৪০০',
 			'date'    => '০১ জুলাই ২০২২',
-			'contact' => '০১৮৮৬১৪৮৪৪৪'
+			'contact' => '০১৮৮৬১৪৮৪৪৪',
+			'sold' => 1,
 
 		],
 		[
@@ -110,7 +117,8 @@ if ( ! empty( $products ) ) { ?>
 			'weight'  => '৩০৪ কেজি',
 			'price'   => '৩০৪ × ৳৪৬০ = ৳১,৩৯,৮৪০',
 			'date'    => '০১ জুলাই ২০২২',
-			'contact' => '০১৮৮৬১৪৮৪৪৪'
+			'contact' => '০১৮৮৬১৪৮৪৪৪',
+			'sold' => 1,
 
 		],
 		[
@@ -119,16 +127,18 @@ if ( ! empty( $products ) ) { ?>
 			'weight'  => '২৮০ কেজি',
 			'price'   => '২৮০ × ৳৪৬০ = ৳১,২৮,৮০০',
 			'date'    => '০১ জুলাই ২০২২',
-			'contact' => '০১৮৮৬১৪৮৪৪৪'
+			'contact' => '০১৮৮৬১৪৮৪৪৪',
+			'sold' => 1,
 
 		],
 		[
 			'token'   => 'বি-২০',
-			'type'    => 'ফ্রিজিয়ান ক্রস',
+			'type'    => 'দেশাল',
 			'weight'  => '৩৪০ কেজি',
 			'price'   => '৩৪০ × ৳৪৬০ = ৳১,৫৬,৪০০',
 			'date'    => '০১ জুলাই ২০২২',
-			'contact' => '০১৮৮৬১৪৮৪৪৪'
+			'contact' => '০১৮৮৬১৪৮৪৪৪',
+			'sold' => 0,
 
 		],
 		[
@@ -137,7 +147,8 @@ if ( ! empty( $products ) ) { ?>
 			'weight'  => '২৪৫ কেজি',
 			'price'   => '২৪৫ × ৳৪৬০ = ৳১,১২,৭০০',
 			'date'    => '০১ জুলাই ২০২২',
-			'contact' => '০১৮৮৬১৪৮৪৪৪'
+			'contact' => '০১৮৮৬১৪৮৪৪৪',
+			'sold' => 1,
 
 		]
 	];
@@ -177,6 +188,7 @@ if ( ! empty( $products ) ) { ?>
                                 <p>মূল্য <?php echo $cow['price']; ?></p>
                                 <p>ওজন নেয়ার তারিখঃ <?php echo $cow['date']; ?></p>
                                 <p>যোগাযোগের নম্বরঃ <?php echo $cow['contact']; ?></p>
+                                <?php echo $cow['sold'] ? '<b>বিক্রয় সম্পন্ন</b>' : ''; ?>
                             </div>
                         </div>
                     </div>
